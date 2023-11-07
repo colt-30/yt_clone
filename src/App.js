@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Box } from '@mui/material'
 import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed, SearchBar } from './components';
+
 const App = () => (
   <BrowserRouter>
   <Box sx={{backgroundColor: '#000'}}>
